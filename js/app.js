@@ -6,6 +6,12 @@
       Ne pas retourner la chaîne de caractères, affichez la avec un console.log()
  */
 
+let str = "";
+for (let i = 1; i <= 10; i++) {
+    str += i;
+}
+console.log(str);
+
 
 /*
       EXO 2

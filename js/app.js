@@ -240,6 +240,7 @@ console.log("Exo 13: " + Exo13([1, 5, 3, 7, 4, 2]));
       Ne pas retourner la chaîne de caractères, affichez la avec un console.log()
       Tips: Fibonacci => 0 1 1 2 3 (2+1) 5 (3+2)... n (n-2 + n-1)
  */
+// Je n'ai pas compris la suite de Fibonacci.
 
 
 /*
@@ -248,6 +249,20 @@ console.log("Exo 13: " + Exo13([1, 5, 3, 7, 4, 2]));
       Et retourne la somme des chiffres qui composent ce nombre
       La fonction doit retourner le résultat
  */
+
+function Exo15 (number) {
+    let num_exo15 = "";
+    let somme = 0;
+    for (let i = 0; i < number; i++) {
+        num_exo15 += i;
+        somme += i;
+
+        if (somme == number) {
+            return num_exo15;
+        }
+    }
+}
+console.log("Exo 15: " + Exo15(6));
 
 
 /*

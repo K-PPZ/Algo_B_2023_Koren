@@ -251,18 +251,9 @@ console.log("Exo 13: " + Exo13([1, 5, 3, 7, 4, 2]));
  */
 
 function Exo15 (number) {
-    let num_exo15 = "";
-    let somme = 0;
-    for (let i = 0; i < number; i++) {
-        num_exo15 += i;
-        somme += i;
-
-        if (somme == number) {
-            return num_exo15;
-        }
-    }
+    return number.split("");
 }
-console.log("Exo 15: " + Exo15(6));
+console.log("Exo 15: " + Exo15("155"));
 
 
 /*
@@ -273,6 +264,15 @@ console.log("Exo 15: " + Exo15(6));
       La fonction doit retourner le tableau
  */
 
+function Exo16 (numbers) {
+    let first = numbers[0];
+    let last = numbers[numbers.length -1];
+    numbers[0] = last;
+    numbers[numbers.length -1] = first;
+
+    return numbers;
+}
+console.log("Exo 16: " + Exo16([1, 2, 3]));
 
 
 /*

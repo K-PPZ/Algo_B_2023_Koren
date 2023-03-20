@@ -146,6 +146,11 @@ console.log("Exo 8: " + Exo8());
       ex: (30 °C × 9/5) + 32 = 86 °F
  */
 
+function Exo9 (temp) {
+    return (temp * 9/5) + 32 + "°F";
+}
+console.log("Exo 9: " + Exo9(30));
+
 
 /*
       EXO 10

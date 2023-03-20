@@ -160,7 +160,7 @@ console.log("Exo 9: " + Exo9(30));
       Vous devez utiliser une boucle (pas de reduce)
  */
 
-function Exo10(numbers) {
+function Exo10 (numbers) {
     let num_exo10 = 0;
     for (let i = 0; i < numbers.length; i++) {
         num_exo10 += numbers[i];
@@ -178,6 +178,16 @@ console.log("Exo 10: " + Exo10([1, 2, 3]));
       La fonction doit retourner le résultat
       Vous devez utiliser une boucle (pas de reduce)
  */
+
+function Exo11 (numbers) {
+    let num_exo11 = 0;
+    for (let i = 0; i < numbers.length; i++) {
+        num_exo11 += numbers[i];
+    }
+
+    return num_exo11 / numbers.length;
+}
+console.log("Exo 11: " + Exo11([1, 2, 3, 4]));
 
 
 /*

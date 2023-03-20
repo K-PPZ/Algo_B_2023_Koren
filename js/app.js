@@ -198,6 +198,18 @@ console.log("Exo 11: " + Exo11([1, 2, 3, 4]));
       Vous devez utiliser une boucle (pas de filter)
  */
 
+function Exo12 (numbers) {
+    let tab_exo12 = [];
+    for (let i = 0; i < numbers.length; i++) {
+        if (numbers[i] > 0) {
+            tab_exo12.push(numbers[i]);
+        }
+    }
+
+    return tab_exo12;
+}
+console.log("Exo 12: " + Exo12([1, -2, 8, -4, -5]));
+
 
 /*
       EXO 13

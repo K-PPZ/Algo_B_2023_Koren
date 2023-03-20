@@ -57,7 +57,7 @@ let str_exo4 = "";
 for (let i = 0; i <= 10; i++) {
     str_exo4 += 7*i + " ";
 }
-console.log(str_exo4);
+console.log("Exo 4: " + str_exo4);
 
 
 /*
@@ -88,6 +88,16 @@ console.log("Exo 5: " + str_exo5);
       ce nombre devra être la somme des nombres de 1 a 10
       La fonction doit retourner le résultat
  */
+
+function Exo6 () {
+    let num_exo6 = 0;
+    for (let i = 1; i <= 10; i++) {
+        num_exo6 += i;
+    }
+
+    return num_exo6;
+}
+console.log("Exo 6: " + Exo6());
 
 
 /*

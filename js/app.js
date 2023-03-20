@@ -218,6 +218,18 @@ console.log("Exo 12: " + Exo12([1, -2, 8, -4, -5]));
       La fonction doit retourner le résultat
  */
 
+function Exo13 (numbers) {
+    let num_exo13 = numbers[0];
+    for (let i = 1; i < numbers.length; i++) {
+        if (numbers[i] > num_exo13) {
+            num_exo13 = numbers[i];
+        }
+    }
+
+    return num_exo13;
+}
+console.log("Exo 13: " + Exo13([1, 5, 3, 7, 4, 2]));
+
 
 /*
       EXO 14

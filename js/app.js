@@ -53,6 +53,12 @@ console.log("Exo 3: " + str_exo3);
       Ne pas retourner la chaîne de caractères, affichez la avec un console.log()
  */
 
+let str_exo4 = "";
+for (let i = 0; i <= 10; i++) {
+    str_exo4 += "7*" + i + "=" + 7*i + " ";
+}
+console.log(str_exo4);
+
 
 /*
       EXO 5

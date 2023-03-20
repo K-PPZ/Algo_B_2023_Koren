@@ -55,7 +55,7 @@ console.log("Exo 3: " + str_exo3);
 
 let str_exo4 = "";
 for (let i = 0; i <= 10; i++) {
-    str_exo4 += "7*" + i + "=" + 7*i + " ";
+    str_exo4 += 7*i + " ";
 }
 console.log(str_exo4);
 

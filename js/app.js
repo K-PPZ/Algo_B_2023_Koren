@@ -37,7 +37,7 @@ console.log("Exo 2: " + str_exo2);
  */
 
 let str_exo3 = "";
-for (let i = 0; i <= 100; i++) {
+for (let i = 0; i < 100; i++) {
     if (i % 2 == 0) {
         str_exo3 += i + " ";
     }

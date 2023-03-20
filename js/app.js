@@ -36,6 +36,13 @@ console.log("Exo 2: " + str_exo2);
       Ne pas retourner la chaîne de caractères, affichez la avec un console.log()
  */
 
+let str_exo3 = "";
+for (let i = 0; i <= 100; i++) {
+    if (i % 2 == 0) {
+        str_exo3 += i;
+    }
+}
+console.log("Exo 3: " + str_exo3);
 
 
 /*

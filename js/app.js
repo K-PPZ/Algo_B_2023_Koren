@@ -69,6 +69,18 @@ console.log(str_exo4);
       Ne pas retourner la chaîne de caractères, affichez la avec un console.log()
  */
 
+let str_exo5 = "";
+let num_exo5 = 1;
+for (let i = 0; i <= 10 && num_exo5 <= 10; i++) {
+    str_exo5 += num_exo5 * i + " ";
+
+    if (i == 10) {
+        num_exo5 ++;
+        i = 0;
+    }
+}
+console.log("Exo 5: " + str_exo5);
+
 
 /*
       EXO 6

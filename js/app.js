@@ -107,6 +107,16 @@ console.log("Exo 6: " + Exo6());
       La fonction doit retourner le résultat
  */
 
+function Exo7 () {
+    let num_exo7 = 1;
+    for (let i = 1; i <= 10; i++) {
+        num_exo7 *= i;
+    }
+
+    return num_exo7;
+}
+console.log("Exo 7: " + Exo7());
+
 
 /*
       EXO 8

@@ -6,11 +6,11 @@
       Ne pas retourner la chaîne de caractères, affichez la avec un console.log()
  */
 
-let str = "";
+let str_exo1 = "";
 for (let i = 1; i <= 10; i++) {
-    str += i;
+    str_exo1 += i;
 }
-console.log("Exo 1: " + str);
+console.log("Exo 1: " + str_exo1);
 
 
 /*
@@ -21,11 +21,11 @@ console.log("Exo 1: " + str);
       Ne pas retourner la chaîne de caractères, affichez la avec un console.log()
  */
 
-let str2 = "";
+let str_exo2 = "";
 for (let i = 1; i <= 10; i++) {
-    str2 += i + " ";
+    str_exo2 += i + " ";
 }
-console.log("Exo 2: " + str2);
+console.log("Exo 2: " + str_exo2);
 
 
 /*
@@ -35,6 +35,7 @@ console.log("Exo 2: " + str2);
       Avec des espaces entre les nombres
       Ne pas retourner la chaîne de caractères, affichez la avec un console.log()
  */
+
 
 
 /*

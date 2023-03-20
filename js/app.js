@@ -283,6 +283,19 @@ console.log("Exo 16: " + Exo16([1, 2, 3]));
       La fonction doit retourner le résultat
  */
 
+// function Exo17 (str, special) {
+//     let num_exo17 = 0;
+
+//     for (let i = 0; i < special.length; i++) {
+//         if (!special[i].includes(str)) {
+//             num_exo17 ++;
+//         }
+//     }
+
+//     return num_exo17;
+// }
+// console.log("Exo 17: " + Exo17("hello@g$f.com", "§ ! @ # $ % * ( ) _ - = + { } [ ] \ | < > ? / . , ;"));
+
 
 /*
       EXO 18
@@ -291,3 +304,17 @@ console.log("Exo 16: " + Exo16([1, 2, 3]));
       la fonction doit calculer la moyenne des nombres présents dans cette chaîne de      caractères
       La fonction doit retourner le résultat
  */
+
+function Exo18 (str) {
+    let str_exo18 = "";
+    let num_exo18 = 0;
+    for (let i = 0; i < str.length; i++) {
+        if (str[i] != ",") {
+            str_exo18 += str[i];
+            num_exo18 += parseInt(str[i]);
+        }
+    }
+
+    return num_exo18 / str_exo18.length;
+}
+console.log("Exo 18: " + Exo18("1,2,3,4,5"));

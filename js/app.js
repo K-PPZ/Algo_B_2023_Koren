@@ -160,6 +160,16 @@ console.log("Exo 9: " + Exo9(30));
       Vous devez utiliser une boucle (pas de reduce)
  */
 
+function Exo10(numbers) {
+    let num_exo10 = 0;
+    for (let i = 0; i < numbers.length; i++) {
+        num_exo10 += numbers[i];
+    }
+
+    return num_exo10;
+}
+console.log("Exo 10: " + Exo10([1, 2, 3]));
+
 
 /*
       EXO 11

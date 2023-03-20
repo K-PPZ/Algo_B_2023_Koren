@@ -21,6 +21,12 @@ console.log("Exo 1: " + str);
       Ne pas retourner la chaîne de caractères, affichez la avec un console.log()
  */
 
+let str2 = "";
+for (let i = 1; i <= 10; i++) {
+    str2 += i + " ";
+}
+console.log("Exo 2: " + str2);
+
 
 /*
       EXO 3
